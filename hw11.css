@@ -1,0 +1,15 @@
+.body {
+    width: 150px;
+    height: 100x;
+    background-color: lightgreen;
+}
+.head {
+    font-size: 50px;
+}
+.head1 {
+    font-size: 0.5em;
+}
+h3 {
+    color:rgb(150, 125, 24);
+    font-size:25px;
+}

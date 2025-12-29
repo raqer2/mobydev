@@ -1,0 +1,18 @@
+img {
+    display : block;
+    width: 100;
+    height : 75;
+
+}
+.album {
+    position: center;
+}
+h1 {
+    display : inline-block;
+    color : rgb(56,89,123);
+}
+.container {
+    display: inline-block;
+    background-color: aquamarine;
+    margin: 10px;
+}
