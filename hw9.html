@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="russian">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>error</title>
 </head>
+
 <body>
     <fieldset>
-    <form actiom="/submit" method="post">
-        <legend>Опрос:</legend>
-        <label for="name">Введите свое имя:</label>
-         <input type="text" id="name" name="name" required>
-        </form>
-    <form action="/submit" method="post">
-        <label for="email">Введите свою электронную почту:</label>
-        <input type="email" id="email" name="email" required>
-    </form>
-    <form action="/submit" method="post">
-        <label for="password">Введите свой пароль:</label>
-        <input type="password" id="password" name="password" required>
-    </form>
-    <form action="/submit" method="post">
-        <label for="name">Добавьте коментарий:</label>
-        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
-    </form>
-    </fieldset>
-    <fieldset>
-        
-    <legend>Выберите вашу страну:</legend>
-    <label for="countries">Выберите страну:</label>
-    <select id="countries" name="countries">
-        <option value="'question">Выберите страну</option>
-        <option value="kazakhstan">Казахстан</option>
-        <option value="russia">Россия</option>
-        <option value="usa">США</option>
-        <option value="canada">Канада</option>
-    </select>
-    <button type="submit">Отправить</button>
-     <button type="reset">Сбросить</button> 
+        <form action="/submit" method="post">
+            <legend>Опрос:</legend>
+            <label for="name">Введите свое имя:</label>
+            <input type="text" id="name" name="name" required>
 
-    </form>
+
+            <label for="email">Введите свою электронную почту:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Введите свой пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="name">Добавьте коментарий:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+            <legend>Выберите вашу страну:</legend>
+        <label for="countries">Выберите страну:</label>
+        <select id="countries" name="countries">
+            <option value="'question">Выберите страну</option>
+            <option value="kazakhstan">Казахстан</option>
+            <option value="russia">Россия</option>
+            <option value="usa">США</option>
+            <option value="canada">Канада</option>
+        </select>
+        <button type="submit">Отправить</button>
+
+        <button type="reset">Сбросить</button>
+
+        </form>
     </fieldset>
+</body>
+</html>
+    
+        
+        
