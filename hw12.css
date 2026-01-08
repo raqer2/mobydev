@@ -8,7 +8,7 @@ img {
     position: center;
 }
 h1 {
-    display : inline-block;
+    display : inline;
     color : rgb(56,89,123);
 }
 .container {
