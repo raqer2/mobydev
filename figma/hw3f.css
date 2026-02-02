@@ -212,6 +212,7 @@ body{
     margin-top: 30px;
 }
 .search-icon4 {
+    margin-right:10px;
     width:24px;
     height:24px;
     background-color: #111928;
@@ -225,8 +226,8 @@ body{
     border:1px solid;
     border-radius: 10px;
     border-color: #D6D8DE;
+    justify-content:space-between;
     color:#D6D8DE;
-    
     margin:12px;
     background-color: #111928;
     width: 500px;
@@ -238,4 +239,6 @@ body{
     outline:none;
     background-color: #111928;
     color:#D6D8DE;
+    margin-left:20px;
 }
+
