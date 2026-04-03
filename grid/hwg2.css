@@ -1,0 +1,149 @@
+.header {
+    display:flex;
+    align-items: center;
+    background-color: #E1EDE6;
+    border:none;
+    width:1440px;
+    height:100px;
+    padding-left:165px;
+    padding-right:165px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width:143px;
+    height:35px;
+        
+}
+.text1{
+    display:flex;
+    align-items: center;
+    width:472px;
+    height:24px;
+    gap:60px;
+    font-family:'Arial';
+}
+.main {
+    width:1440px;
+    height:620px;
+    background-color: #edf0ed;
+    display:flex;
+    align-items:center;
+    padding-left:165px;
+    padding-right:165px;
+
+}
+.golyb {
+    width:540px;
+    height:620px;
+}
+.text2 {
+    width:540px;
+    height:331px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+span {
+    color:#598D66;
+    font-size:60px;
+    font-family:'Arial';
+    letter-spacing:0%;
+}
+h1 {
+    font-size:60px;
+    letter-spacing:0%;
+    font-family:'Arial';
+    color:#2C2D35;
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:500;
+    
+}
+.text2 a {
+    color:#86928B;
+    font-size:18px;
+    font-family:'Arial';    
+    margin-top:20px;
+}
+.text2 button{
+    width:225px;
+    height:65px;
+    color:#598D66;
+    border:1px solid;
+    border-color:#598D66;
+    margin-top:60px;
+    
+}
+.footer {
+    width:1440px;
+    height:168px;
+    background-color: #E1EDE6;
+    display:flex;
+    padding:23px 165px;
+    
+}
+.logo2{
+    width:143px;
+    height:35px;
+}
+.text3 {
+    width:170px;
+    height:52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    font-family:'Raleway';
+    margin-top:35px;
+}
+.text3a {
+    color:#86928B;
+    font-size:18px;
+    font-family:'Raleway';
+    font-weight:500;
+}
+.open  {
+    width:52px;
+    height:348px;
+    display: flex;
+    flex-direction: column;
+}
+.spisok {
+    display:flex;
+    width:445px;
+    height:225px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reproduct {
+    width:128px;
+    height:122px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#86928B;
+    font-size:18px;
+    font-weight: 500;
+    font-family:'Raleway';
+    gap:6px;
+}
+.Onas {
+    color:#000000;
+    font-size:22px;
+    font-weight:600;
+    font-family:'Raleway';
+
+}
+.onas {
+    font-size:18px;
+    font-family:'Raleway';
+    color:#86928B;
+    display:flex;
+    flex-direction: column;
+    gap:6px;
+}
+
+
+

@@ -1,0 +1,25 @@
+p {
+    color:yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#top {
+    text-align: center;
+    color:orangered;
+}
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    color:plum
+} 
+body {
+    background-color: aquamarine;
+}
+a {
+    color:chartreuse;
+}
+.a {
+    color:blue;
+
+}
+#a{
+    color:darkmagenta; 
+}

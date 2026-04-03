@@ -1,0 +1,30 @@
+.rus {
+    display:flex;
+    height:75%;
+    background-color: bisque;
+
+}
+.beda {
+    width:400px;
+    height:500px;
+    box-sizing: border-box;
+}
+p {
+    font-size:20px;
+    font-family:'Raleway';
+    width:725px;
+    height:400px;
+    box-sizing: border-box;
+    font-weight: 600;
+    margin-left:20px;
+    word-spacing: 5px;
+    color:rgb(9, 181, 186);
+    margin-bottom:25px;
+}
+.georgy {
+    display:flex;
+    align-items:flex-end;
+    width:75px;
+    height:70px;
+    margin-top:460px;
+}

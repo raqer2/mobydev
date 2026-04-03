@@ -1,0 +1,25 @@
+.submit:hover {
+    background-color: rgb(15, 94, 204);
+}
+.submit:focus {
+    border-color: aqua;
+}
+.ok {
+    display:block;
+}
+.reset:hover {
+    background-color: rgb(204, 15, 94);
+    border-color: red;
+}
+li:first-child{
+    color:purple ;
+}
+li:last-child{
+    color: brown;
+}
+a:hover{
+  background-color: blueviolet;
+}
+.gh:nth-child(odd){
+   background-color: antiquewhite;
+}
