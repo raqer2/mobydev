@@ -13,3 +13,13 @@ p {
 body {
     background-color: aquamarine;
 }
+a {
+    color:chartreuse;
+}
+.a {
+    color:blue;
+
+}
+#a{
+    color:darkmagenta;
+}
