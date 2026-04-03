@@ -1,0 +1,30 @@
+h1 {
+    color:#d60fda;
+    text-align:center;
+}
+.a1 {
+    font-size:60px;
+
+}
+.a3 {
+    font-weight:100px;
+}
+.bp .a4 {
+    background-color: lightgreen;
+    
+}
+.bp .a5{
+    background-image: url(caw.jpeg);
+    width:590px;
+    height:590px;
+    display:block;
+    font-size:100px;
+}
+p{ 
+    width:100px;
+    font-weight:20px;
+    height:100px;
+}
+.a2 {
+    overflow:hidden;
+}
