@@ -1,15 +1,28 @@
 .body {
     width: 150px;
-    height: 100x;
+    height: 100px;
     background-color: lightgreen;
 }
 .head {
     font-size: 50px;
 }
+html {
+    font-size:17px;
+}
 .head1 {
-    font-size: 0.5em;
+    font-size: 0.5rem;
 }
 h3 {
     color:rgb(150, 125, 24);
     font-size:25px;
+}
+a {
+    color:rgba(109, 245, 5, 0.829);
+    width:5.5em;
+    height:14%;
+    background-color: #5d00c1;
+
+}
+div {
+    width:200px;
 }
