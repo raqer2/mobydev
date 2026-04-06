@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1 {
     color:#d60fda;
     text-align:center;
@@ -21,42 +20,20 @@ h1 {
     display:block;
     font-size:100px;
 }
-p{ 
+.ook{ 
     width:100px;
-    font-weight:20px;
+    font-weight:20;
     height:100px;
 }
 .a2 {
     overflow:hidden;
-=======
-h1 {
-    color:#d60fda;
-    text-align:center;
 }
-.a1 {
-    font-size:60px;
-
-}
-.a3 {
-    font-weight:100px;
-}
-.bp .a4 {
-    background-color: lightgreen;
-    
-}
-.bp .a5{
-    background-image: url(caw.jpeg);
-    width:590px;
-    height:590px;
-    display:block;
-    font-size:100px;
-}
-p{ 
-    width:100px;
-    font-weight:20px;
-    height:100px;
-}
-.a2 {
-    overflow:hidden;
->>>>>>> 86d5aa2bb17a661c90789cdac226959cb34270d6
+.pmb {
+    width:200px;
+    height:200px;
+    background-color:lightblue;
+    padding:30px 50px;
+    margin-top:30px;
+    border:2px solid rgb(200, 117, 255);
+    border-radius: 3px;
 }
