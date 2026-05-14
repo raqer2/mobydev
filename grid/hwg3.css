@@ -1,0 +1,122 @@
+.pic1{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic1;
+    align-items:flex-start;
+}
+.pic2{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic2;
+    align-items:flex-start;
+}
+.pic3{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic3;
+    align-items:flex-start;
+}
+.pic4{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic4;
+    align-items:flex-start;
+}
+.pic5{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic5;
+    align-items:flex-start;
+}
+.pic6{
+    width:350px;
+    height:730px;
+    display:flex;
+    flex-direction: column;
+    padding:20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    grid-area:pic6;
+    align-items:flex-start;
+}
+.image{
+    width:310px;
+    height:422px;
+    margin-bottom:20px;
+}
+.creator{
+    color:#86928B;
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:10px;
+}
+.title{
+    color:#2C2D35;
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:8px;
+}
+.qs{
+    color:#2C2D35;
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:30px;
+}
+.price{
+    color:#598D66;
+    font-size:24px;
+    font-weight:500;
+    margin-bottom:20px;
+}
+.vkorzinu{
+    color:#598D66;
+    border: 1px solid #598D66;
+    width:310px;
+    height:65px;
+    padding:20px 60px 20px 60px;
+    background-color:#E1EDE6;
+}
+.gallery1{
+    display:grid;
+    grid-template-areas:"pic1 pic2"
+                        "pic3 pic4"
+                        "pic5 pic6";
+    column-gap:30px;
+    row-gap:30px;
+    grid-template-columns:350px 350px;
+    grid-template-rows: 750px 750px 750px;
+}
+body{
+    background-color: aqua;
+}
+@media(max-width:1200px){
+    .gallery1{
+        display:grid;
+        grid-template-areas:"pic1 pic2 pic3"
+                            "pic4 pic5 pic6";
+                            
+        width:1110px;
+        height:1448.17px;
+        column-gap:30px;
+        row-gap:30px;
+    }
+}
