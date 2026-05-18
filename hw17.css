@@ -1,0 +1,127 @@
+.rotate{
+    background-color: rgba(27, 116, 241, 0.703);
+    width:150px;
+    height:150px;
+    animation: rotate 5s infinite;
+
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.scale{
+    background-color: #3fe013;
+    width:400px;
+    height:400px;
+    animation: scale 10s infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:300px;
+}
+@keyframes scale{
+    0%{
+        transform: scale(0.5);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform:scale(1.5);
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+.translate{
+    background-color: rgba(225, 255, 192, 0.897);
+    width:100px;
+    height:100px;
+    animation:translate 10s infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes translate{
+    0%{
+        transform:translate(0,0);
+    }
+    20%{
+        transform:translate(100px, -200px);
+    }
+    40%{
+        transform:translate(50px,150px)
+    }
+    100%{
+        transform:translate(250px,-30px);
+    }
+}
+.skew{
+    background-color: #f0ea0f;
+    width:100px;
+    height:100px;
+    animation:skew 5s infinite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:300px;
+}
+@keyframes skew{
+    from{
+        transform:skew(0deg,0deg);
+    }
+    to{
+        transform:skew(45deg,60deg);
+    }
+}
+.hover1{
+    width:200px;
+    height:200px;
+    background-color: rgba(0, 255, 13, 0.753);
+    margin-left: 300px;
+    margin-bottom:200px;
+}
+.hover1:hover{
+    animation:translate2 5s infinite;
+    width:200px;
+    height:200px;
+    background-color: rgba(0, 255, 13, 0.753);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@keyframes translate2{
+    0%{
+        transform:translate(0px,0px)
+    }
+    50%{
+        transform:translate(50px,-50px);
+    }
+    100%{
+        transform:translate(-25px,75px);
+    }
+}
+#animation{
+    width:200px;
+    height:200px;
+    background-color: rgba(255, 0, 0, 0.753);
+    margin-left:300px;
+    animation:animation1 10s infinite;
+}
+@keyframes animation{
+    from{
+        transform:rotate(45deg) scale(2)
+
+    }
+    to{
+        transfrom:scale(1.5) translate(150px,200px)
+    }
+}
